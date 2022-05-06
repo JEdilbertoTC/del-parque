@@ -18,6 +18,7 @@ import { VisitaGuardiaComponent } from './visita-guardia/visita-guardia.componen
 import { AltasModificacionesComponent } from './altas-modificaciones/altas-modificaciones.component';
 import { AgendaCondominoComponent } from './agenda-condomino/agenda-condomino.component';
 import { VisitaCondominoComponent } from './visita-condomino/visita-condomino.component';
+import { PruebaDeAntisemitaComponent } from './prueba-de-antisemita/prueba-de-antisemita.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { VisitaCondominoComponent } from './visita-condomino/visita-condomino.co
     VisitaGuardiaComponent,
     AltasModificacionesComponent,
     AgendaCondominoComponent,
-    VisitaCondominoComponent
+    VisitaCondominoComponent,
+    PruebaDeAntisemitaComponent
   ],
   imports: [
     BrowserModule,
